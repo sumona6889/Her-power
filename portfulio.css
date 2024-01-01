@@ -1,0 +1,50 @@
+*{
+
+text-decoration: none;
+list-style: none;
+
+}
+.hero-titel{
+
+    margin-top: 150px;
+
+}
+.hero-border{
+
+    border: 3px solid blue;
+
+}
+.seemore{
+
+    color: aqua;
+    padding: 3px;
+}
+.seemore:hover{
+
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgb(98, 20, 231);
+
+}
+.footer{
+
+    border: 3px solid red;
+}
+.cat{
+    margin-top: 0;
+    position: absolute;
+    background-color: brown;
+    display: none;
+}
+.cat li{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid grey ;
+
+}
+.cat li a{
+    color: black;
+}
+.dropdown:hover .cat{
+display: block;
+}
